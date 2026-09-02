@@ -1,0 +1,11 @@
+qiskit
+qiskit-finance
+qiskit-algorithms
+qiskit-aer
+qiskit-optimization
+pandas
+numpy
+dimod
+dwave-ocean-sdk
+dwave-system
+neal
