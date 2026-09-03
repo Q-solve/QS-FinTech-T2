@@ -34,7 +34,7 @@ from qiskit_optimization.algorithms import MinimumEigenOptimizer
 # ---------------------------------------------------------------------------
 # 0. Configuration
 # ---------------------------------------------------------------------------
-CSV_PATH = "NSE_data_all_stocks_2025.csv"
+CSV_PATH = "data/NSE_combination_data_all_stock_2013_2025.csv"
 
 # 8 liquid, well-known NSE blue chips spanning telecom, banking, and
 # consumer goods. Swap these for any of the 67 ticker columns in the CSV.
