@@ -34,11 +34,11 @@ from qiskit_optimization.algorithms import MinimumEigenOptimizer
 # ---------------------------------------------------------------------------
 # 0. Configuration
 # ---------------------------------------------------------------------------
-CSV_PATH = "/mnt/user-data/uploads/NSE_data_all_stocks_2025__1_.csv"
+CSV_PATH = "NSE_data_all_stocks_2025.csv"
 
 # 8 liquid, well-known NSE blue chips spanning telecom, banking, and
 # consumer goods. Swap these for any of the 67 ticker columns in the CSV.
-TICKERS = ["SCOM", "EQTY", "KCB", "EABL", "BAT", "COOP", "BAMB", "JUB"]
+TICKERS = ["SCOM", "EQTY", "KCB", "EABL", "BAT", "COOP", "BAMB", "JUB","ABSA","BKG","ABSA","AMAC","CABL","CIC","CGEN","EGAD"]
 
 q = 0.5                      # risk aversion factor
 budget = len(TICKERS) // 2   # number of assets to select (4 of 8 here)
